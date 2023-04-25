@@ -7,6 +7,6 @@
 var customerId = 555;
 var firstName = "Zyaire";
 var customerLastName = "Walker";
-console.log(customerId);
-console.log(customerFirstName);
-console.log(customerLastName);
+console.log(customerId + firstName + customerLastName);
+//console.log(customerFirstName);
+//console.log(customerLastName);
