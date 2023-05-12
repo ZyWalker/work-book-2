@@ -5,5 +5,5 @@ function greet() {
   const messageParagraphElement = document.getElementById("messageParagraph");
   const firstName = firstNameElement.value;
   let greeting = `What's Up ${firstName}`;
-  messageParagraph.innerText = greeting;
+  messageParagraphElement.innerText = greeting;
 }
